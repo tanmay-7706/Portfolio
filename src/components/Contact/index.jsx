@@ -1,10 +1,10 @@
 import { contactInfo } from "../../data";
 import "./Contact.css"
-
+import { useState } from "react";
 import Pyramid from "../../ui/Pyramid"
 import SocialHandles from "../../ui/SocialHandles";
 import { BsFillSendFill } from "react-icons/bs";
-import { useState } from "react";
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
