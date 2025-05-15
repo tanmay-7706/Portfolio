@@ -1,6 +1,6 @@
 import { FaPaintBrush } from "react-icons/fa";
-import { SiCodechef, SiCodeforces, SiFiverr, SiLeetcode, SiPython } from "react-icons/si";
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import { SiCodechef, SiCodeforces, SiLeetcode, SiPython } from "react-icons/si";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { FaCodeCompare } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
@@ -10,6 +10,8 @@ import {
   project2,
   project3,
   project4,
+  project5,
+  project6,
   figma,
   canva,
   css,
@@ -65,16 +67,14 @@ export const services = [
 
 export const projects = [
   {
-    title: "Study Buddy",
+    title: "Nature Page",
     image: project1,
     category: "Web",
-    description: `Study Buddy is a smart web application designed to help students stay focused, organized, and motivated throughout
-     their academic journey. It brings together essential tools in one place, 
-     making studying more efficient and less stressful`,
-    demoLink: "https://studybuddy-indol.vercel.app/",
+    description: `The Nature Page is a beautifully designed website that showcases the beauty of nature through visually appealing images and informative content. Built using HTML, CSS, and Figma, it provides a seamless and engaging user experience.`,
+    demoLink: "https://github.com/tanmay-7706/Nature_Page",
     stacks: [
       {
-        name: "html",
+        name: "HTML",
         logo: html,
       },
       {
@@ -82,22 +82,20 @@ export const projects = [
         logo: css,
       },
       {
-        name: "JavaScript",
-        logo: javascript,
-      },
+        name: "Figma",
+        logo: figma,
+      }
     ],
   },
   {
-    title: "Modern Ai-Landing Page",
+    title: "AI Landing Page",
     image: project2,
     category: "Web",
-    description: `A sleek, responsive, and visually engaging landing page built to showcase cutting-edge 
-                  AI solutions and products. This modern design features a clean layout, 
-                  vibrant gradients, smooth animations, and intuitive navigation — all optimized for high user engagement and conversion.`,
-    demoLink: "https://glittery-fudge-49c041.netlify.app/",
+    description: `The AI Landing Page is a visually engaging single-page website designed to showcase AI-related products or services. Built using HTML, CSS, and JavaScript, this project demonstrates proficiency in front-end development and responsive design.`,
+    demoLink: "https://github.com/tanmay-7706/AI_Landing_Page",
     stacks: [
       {
-        name: "Html",
+        name: "HTML",
         logo: html,
       },
       {
@@ -111,42 +109,100 @@ export const projects = [
     ],
   },
   {
-    title: "Capstone Project",
+    title: "MovDVD",
     image: project3,
     category: "Web",
-    description: `frontend art gallery landing page`,
-    demoLink: "https://google.com/",
+    description: `MovDVD is a dynamic web-series recommendation platform designed to assist users in discovering films based on their preferences. It fetches data from an external API to provide real-time movie suggestions using JavaScript, HTML, and CSS.`,
+    demoLink: "https://github.com/tanmay-7706/MovDVD",
     stacks: [
       {
-        name: "html",
+        name: "HTML",
         logo: html,
       },
       {
         name: "CSS",
         logo: css,
       },
+      {
+        name: "JavaScript",
+        logo: javascript,
+      },
     ],
   },
   {
-    title: "My Portfolio",
+    title: "Speech Converter",
     image: project4,
     category: "Web",
-    description: `This portfolio is built using React and styled with CSS, 
-                  showcasing my skills in modern front-end development. From intuitive UI to smooth user interactions, every section 
-                  reflects my love for clean code and great design.`,
-    demoLink: "https://gleaming-babka-c743d3.netlify.app/",
+    description: `The Speech Converter is a web-based application that converts text into speech. It uses the Web Speech API to synthesize speech and is built using HTML, CSS, and JavaScript, providing an interactive and accessible tool.`,
+    demoLink: "https://github.com/tanmay-7706/Speech-Converter",
+    stacks: [
+      {
+        name: "HTML",
+        logo: html,
+      },
+      {
+        name: "CSS",
+        logo: css,
+      },
+      {
+        name: "JavaScript",
+        logo: javascript,
+      },
+    ],
+  },
+  {
+    title: "FlowNest",
+    image: project5,
+    category: "Web",
+    description: `FlowNest is a project management and team collaboration platform built with React and Vite. It integrates ESLint for code quality and is designed to help teams efficiently manage tasks, communicate, and track project progress.`,
+    demoLink: "https://flownest.vercel.app",
     stacks: [
       {
         name: "React",
         logo: react,
       },
       {
-        name: "CSS",
-        logo: css,
+        name: "JavaScript",
+        logo: javascript,
       },
+      {
+        name: "Tailwind CSS",
+        logo: tailwind,
+      },
+      {
+        name: "Figma",
+        logo: figma,
+      }
+    ],
+  },
+  {
+    title: "My Portfolio",
+    image: project6,
+    category: "Web",
+    description: `The Portfolio project showcases a personalized, responsive web portfolio. Built using modern web technologies, it highlights my skills, projects, and achievements, providing an interactive platform for potential employers and collaborators.`,
+    demoLink: "https://github.com/tanmay-7706/Portfolio",
+    stacks: [
+      {
+        name: "React",
+        logo: react,
+      },
+      {
+        name: "JavaScript",
+        logo: javascript,
+      },
+      {
+        name: "Tailwind CSS",
+        logo: tailwind,
+      },
+      {
+        name: "canva",
+        logo: canva,
+      },
+
     ],
   },
 ];
+
 
 export const skills = [
   {

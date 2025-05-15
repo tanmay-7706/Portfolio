@@ -113,3 +113,24 @@
     background-color: var(--color-primary-dark);
     transform: scale(1.05);
 }
+
+.project__card .project__link {
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.project__card .project__link:hover {
+    text-decoration: underline;
+    color: var(--color-primary); /* Adjust if needed */
+}
+
+.project__card .clickable-image {
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.project__card .clickable-image:hover {
+    transform: scale(1.1);
+}
