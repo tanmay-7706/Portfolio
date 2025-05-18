@@ -129,27 +129,31 @@ export const projects = [
       },
     ],
   },
-  {
-    title: "Speech Converter",
-    image: project4,
-    category: "Web",
-    description: `The Speech Converter is a web-based application that converts text into speech. It uses the Web Speech API to synthesize speech and is built using HTML, CSS, and JavaScript, providing an interactive and accessible tool.`,
-    demoLink: "https://github.com/tanmay-7706/Speech-Converter",
-    stacks: [
-      {
-        name: "HTML",
-        logo: html,
-      },
-      {
-        name: "CSS",
-        logo: css,
-      },
-      {
-        name: "JavaScript",
-        logo: javascript,
-      },
-    ],
-  },
+{
+  title: "GiftWise",
+  image: project4,
+  category: "Web",
+  description: `GiftWise is an intelligent gift idea generator designed to help users find the perfect gift based on occasion, personality, and mood. Built with React, Vite, and Tailwind CSS, it features personalized recommendations, a searchable explore page, a calendar reminder system, login/signup with social options, and a modern responsive UI.`,
+  demoLink: "https://gift-wise.vercel.app",
+  stacks: [
+    {
+      name: "React",
+      logo: react,
+    },
+    {
+      name: "JavaScript",
+      logo: javascript,
+    },
+    {
+      name: "Tailwind CSS",
+      logo: tailwind,
+    },
+    {
+      name: "Figma",
+      logo: figma,
+    }
+  ],
+},
   {
     title: "FlowNest",
     image: project5,
